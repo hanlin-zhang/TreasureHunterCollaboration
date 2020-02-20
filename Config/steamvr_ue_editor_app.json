@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.virtual-reality-bp-game-template-11100242.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/hlz/Desktop/TreasureHunterCollaboration/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "C:/Users/Zion/Desktop/COMP590 VR/Unreal/TreasureHunterCollaboration/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
