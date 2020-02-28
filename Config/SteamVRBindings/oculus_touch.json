@@ -42,17 +42,6 @@
 				},
 				{
 					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
 					"path": "/user/hand/right/input/joystick",
 					"inputs":
 					{
@@ -105,6 +94,50 @@
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
 						}
 					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MoveRight axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MoveRight axis"
+						}
+					}
 				}
 			],
 			"poses": [
@@ -140,5 +173,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Virtual Reality BP Game Template-11100242"
 }
