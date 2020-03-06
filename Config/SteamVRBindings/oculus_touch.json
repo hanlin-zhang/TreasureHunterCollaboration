@@ -41,17 +41,6 @@
 					}
 				},
 				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
 					"mode": "button",
 					"path": "/user/hand/right/input/a",
 					"inputs":

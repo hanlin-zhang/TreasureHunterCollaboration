@@ -112,6 +112,10 @@
 		{
 			"name": "/actions/main/in/MoveRight axis",
 			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/VRTurn axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -237,6 +241,7 @@
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/MoveForward axis": "MoveForward",
 			"/actions/main/in/MoveRight axis": "MoveRight",
+			"/actions/main/in/VRTurn axis": "VRTurn",
 			"/actions/main": "Main Game Actions"
 		}
 	]
