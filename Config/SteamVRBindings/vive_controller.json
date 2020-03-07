@@ -9,6 +9,17 @@
 			"sources": [
 				{
 					"mode": "button",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
 					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
